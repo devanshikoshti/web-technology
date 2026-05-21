@@ -18,7 +18,7 @@ public class ValidationFilter implements Filter {
             response.getWriter().write("<h3>Error: Username cannot be blank (Caught by Filter)</h3>");
             response.getWriter().write("<a href='index.html'>Go Back</a>");
         } else {
-            // Pass the request down the chain to the Servlet
+            // Pass the request down the chain to the Servlettt..
             chain.doFilter(request, response);
         }
     }
